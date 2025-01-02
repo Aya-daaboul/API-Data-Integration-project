@@ -4,3 +4,11 @@
     justify-content: space-around;
     border:3px solid red;
 }
+.item{
+
+    width:300px;
+    height:fit-content;
+    display:flex;
+    flex-direction:column;
+
+}
