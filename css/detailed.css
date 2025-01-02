@@ -1,0 +1,32 @@
+.item{
+    border-radius:15px;
+    border:3px solid rgb(239, 57, 103);
+    background:rgba(240, 113, 145, 0.7);
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:20px;
+    margin-left:5%;
+    margin-right:5%;
+    width:80%;
+    height:fit-content;
+
+}
+.pname{
+    font-size:40px;
+}
+.username{
+    font-size:20px;
+    font-weight:bold;
+}
+.email{
+    font-size:20px;
+    color:rgb(239, 57, 103);
+}
+.address{
+    font-size:20px;
+}
+.geo{
+    font-size:10px;
+    color:rgb(0, 0, 0);
+}
