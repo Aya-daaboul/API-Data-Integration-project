@@ -1,0 +1,30 @@
+*{
+    color:rgb(0, 38, 105);
+}
+body{
+    background-color:rgb(0, 38, 105);
+}
+.main_container{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border:2px solid blue;
+    padding:30px;
+    row-gap:20px;
+}
+.item{
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 10px 5px 5 px;
+    padding: 10px;
+    border:3px solid rgb(121, 237, 255);
+    border-radius:20px;
+    width:500px;
+    height:500px;
+
+
+}
