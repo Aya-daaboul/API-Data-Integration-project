@@ -1,0 +1,6 @@
+.main_container{
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    border:3px solid red;
+}
