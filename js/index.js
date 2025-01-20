@@ -8,7 +8,7 @@ async function getUsers() {
         }
         const data = await response.json();
         console.log(data);
-        for(i=0;i<10;i++){
+        for(i=0;i<10;i++){ //can't be static
             if(!data[i].name){
                 document.querySelector(`..name--${i}`).innerHTML="N/A";   
             }
